@@ -4,6 +4,13 @@ Worker process that turns a RepoForge run into an isolated Pi session.
 
 The runner reads its contract from environment variables so it can be launched by the control API, cron, systemd, Docker, or a queue worker later.
 
+## RepoForge repositories
+
+- [`repoforge-control`](https://github.com/CoolAlbert/repoforge-control) - control API
+- [`repoforge-runner`](https://github.com/CoolAlbert/repoforge-runner) - this worker
+- [`repoforge-logstream`](https://github.com/CoolAlbert/repoforge-logstream) - NDJSON/SSE log helpers
+- [`repoforge-ui`](https://github.com/CoolAlbert/repoforge-ui) - Svelte PM dashboard
+
 ## Required environment
 
 - `REPOFORGE_CONTROL_URL`
