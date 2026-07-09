@@ -1,0 +1,24 @@
+{
+  "name": "repoforge-runner",
+  "version": "0.1.0",
+  "description": "RepoForge worker that launches pi-agent in isolated workspaces.",
+  "type": "module",
+  "bin": {
+    "repoforge-runner": "dist/runner.js"
+  },
+  "scripts": {
+    "dev": "tsx src/runner.ts",
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/runner.js"
+  },
+  "dependencies": {
+    "@repoforge/logstream": "file:../repoforge-logstream"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  },
+  "license": "MIT"
+}
