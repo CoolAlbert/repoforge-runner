@@ -13,7 +13,7 @@
     "start": "node dist/runner.js"
   },
   "dependencies": {
-    "@repoforge/logstream": "file:../repoforge-logstream"
+    "@repoforge/logstream": "github:CoolAlbert/repoforge-logstream"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
