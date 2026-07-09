@@ -1,5 +1,8 @@
 # RepoForge Runner
 
+> RepoForge has moved to the monorepo: <https://github.com/CoolAlbert/repoforge>.
+> This repository is kept as the initial multi-repo spike.
+
 Worker process that turns a RepoForge run into an isolated Pi session.
 
 The runner reads its contract from environment variables so it can be launched by the control API, cron, systemd, Docker, or a queue worker later.
